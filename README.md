@@ -1,0 +1,2 @@
+# TFI_LabPy_PetCare_Manager
+Trabajo Final Integrador de Python - Gestion de Veterinaria - &lt;Petcare Manager>. Grupo 1, Comision D, Catedra Algoritmos y Estructura de Datos 2026, Facultad Regional Resistencia, Universidad Tecnológica Nacional, Argentina.
