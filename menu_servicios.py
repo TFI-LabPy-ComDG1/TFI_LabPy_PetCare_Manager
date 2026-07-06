@@ -4,11 +4,11 @@ def menu_servicios():
     while True:
         FG.limpiar_pantalla()
         print("|", "=" * 38, "|")
-        print("|        Gestión de Servicios          |")
+        print("|        Gestión de Servicios            |")
         print("|", "=" * 38, "|")
-        print("| 1. Agregar servicio                  |")
-        print("| 2. Listar servicios                  |")
-        print("| 0. Volver al Menú Principal          |")
+        print("| 1. Agregar servicio                    |")
+        print("| 2. Listar servicios                    |")
+        print("| 0. Volver al Menú Principal            |")
         print("|", "=" * 38, "|")
         print("")
         
@@ -18,7 +18,7 @@ def menu_servicios():
             case "1":
                 FG.limpiar_pantalla()
                 print("|", "=" * 38, "|")
-                print("|     --- Registrar Servicio ---       |")
+                print("|     --- Registrar Servicio ---         |")
                 print("|", "=" * 38, "|")
                 print("\n[Simulación] Ingrese nombre: Baño y Corte")
                 print("[Simulación] Ingrese precio: $12000")
@@ -27,7 +27,7 @@ def menu_servicios():
             case "2":
                 FG.limpiar_pantalla()
                 print("|", "=" * 38, "|")
-                print("|    --- Servicios Disponibles ---     |")
+                print("|    --- Servicios Disponibles ---       |")
                 print("|", "=" * 38, "|")
                 print(" ID   | Detalle             | Precio")
                 print("-" * 40)
