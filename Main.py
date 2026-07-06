@@ -1,14 +1,9 @@
-def limpiar_pantalla():
-    # Funciona en la mayoría de los casos sin importar el SO
-    import os
-    os.system("cls" if os.name == "nt" else "clear")
-
-def pausar():
-    input("\nPresione ENTER para continuar...")
+import Logo_Inicio as LG
+import funciones_globales as FG
     
 def menu_servicios():
     while True:
-        limpiar_pantalla()
+        FG.limpiar_pantalla()
         print("~" * 40)
         print("        Gestión de Servicios")
         print("~" * 40)
@@ -19,14 +14,14 @@ def menu_servicios():
         opcion = input("Ingrese la opción deseada: ")
         match opcion:
             case "1":
-                limpiar_pantalla()
+                FG.limpiar_pantalla()
                 print("--- Registrar Nuevo Servicio ---")
                 print("\n[Simulación] Ingrese nombre: Baño y Corte")
                 print("[Simulación] Ingrese precio: $12000")
                 print("\n-> ¡Servicio guardado con éxito (Simulado)!")
                 pausar()
             case "2":
-                limpiar_pantalla()
+                FG.limpiar_pantalla()
                 print("--- Lista de Servicios Disponibles ---")
                 print("-" * 40)
                 print("ID   | Detalle             | Precio")
@@ -36,16 +31,16 @@ def menu_servicios():
                 print("003  | Baño y Peluquería   | $12000")
                 print("004  | Desparasitación     | $5000")
                 print("-" * 40)
-                pausar()
+                FG.pausar()
             case "0":
                 break
             case _:
                 print("\nOpción inválida.")
-                pausar()
+                FG.pausar()
 
 def menu_estadisticas():
     while True:
-        limpiar_pantalla()
+        FG.limpiar_pantalla()
         print("~" * 40)
         print("            Estadísticas")
         print("~" * 40)
@@ -57,35 +52,35 @@ def menu_estadisticas():
         opcion = input("Ingrese la opción deseada: ")
         match opcion:
             case "1":
-                limpiar_pantalla()
+                FG.limpiar_pantalla()
                 print("--- Ranking de Servicios Más Solicitados ---")
                 print("\n1. Consulta Médica Gral. (45 veces)")
                 print("2. Baño y Peluquería     (32 veces)")
                 print("3. Vacunación            (28 veces)")
-                pausar()
+                FG.pausar()
             case "2":
-                limpiar_pantalla()
+                FG.limpiar_pantalla()
                 print("--- Principales Motivos de Consulta ---")
                 print("\n1. Control anual / Vacunas  (50%)")
                 print("2. Problemas en la piel     (30%)")
                 print("3. Accidentes / Urgencias   (20%)")
-                pausar()
+                FG.pausar()
             case "3":
-                limpiar_pantalla()
+                FG.limpiar_pantalla()
                 print("--- Mascotas con Mayor Cantidad de Atenciones ---")
                 print("\n1. 'Thor' (Perro - Golden Retriever) -> 8 visitas")
                 print("2. 'Luna' (Gato - Siamés)            -> 6 visitas")
                 print("3. 'Rocco' (Perro - Caniche)         -> 5 visitas")
-                pausar()
+                FG.pausar()
             case "0":
                 break
             case _:
                 print("\nOpción inválida.")
-                pausar()
+                FG.pausar()
 
 def menu_principal():
     while True:
-        limpiar_pantalla()
+        FG.limpiar_pantalla()
 
         print("~" * 40)
         print("    Sistema PetCare-Manager")
@@ -104,20 +99,22 @@ def menu_principal():
 
         match opcion:
             case "1":
-                menu_()
+                menu_Mascotas()
             case "2":
-                menu_()
+                menu_Turnos()
             case "3":
-                menu_()
+                menu_Atenciones()
             case "4": 
                 menu_servicios()
             case "5":
                 menu_estadisticas()
             case "0":
-                menu_()
+                print("\nHasta luego.")
+                break
             case _:
                 print("\nOpción inválida.")
-                pausar()
+                FG.pausar()
 
 # Programa principal
+LG.logo_inicio()
 menu_principal()
