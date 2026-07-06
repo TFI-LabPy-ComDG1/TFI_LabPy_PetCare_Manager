@@ -13,15 +13,18 @@ def menu_servicios():
         match opcion:
             case "1":
                 FG.limpiar_pantalla()
-                print("--- Registrar Nuevo Servicio ---")
+                print("~" * 40)
+                print("   --- Registrar Nuevo Servicio ---")
+                print("~" * 40)
                 print("\n[Simulación] Ingrese nombre: Baño y Corte")
                 print("[Simulación] Ingrese precio: $12000")
                 print("\n-> ¡Servicio guardado con éxito (Simulado)!")
-                pausar()
+                FG.pausar()
             case "2":
                 FG.limpiar_pantalla()
-                print("--- Lista de Servicios Disponibles ---")
-                print("-" * 40)
+                print("~" * 40)
+                print("  --- Lista de Servicios Disponibles ---")
+                print("~" * 40)
                 print("ID   | Detalle             | Precio")
                 print("-" * 40)
                 print("001  | Consulta Médica     | $8500")
