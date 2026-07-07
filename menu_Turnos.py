@@ -14,3 +14,5 @@ def menu_Turnos():
     print("")
     print("Menu en desarrollo...")
     FG.pausar()
+
+menu_Turnos()
