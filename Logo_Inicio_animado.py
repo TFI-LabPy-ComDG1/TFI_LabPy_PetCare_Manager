@@ -70,4 +70,4 @@ def logo_inicio_animado():
     time.sleep(1.5)
 
 # Ejecución de la pantalla de inicio
-logo_inicio_animado()
+#logo_inicio_animado()

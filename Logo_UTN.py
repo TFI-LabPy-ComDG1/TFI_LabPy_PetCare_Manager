@@ -74,4 +74,4 @@ def logo_UTN_animado():
     time.sleep(1.5)
 
 # Ejecución de la pantalla de inicio
-logo_UTN_animado()
+#logo_UTN_animado()

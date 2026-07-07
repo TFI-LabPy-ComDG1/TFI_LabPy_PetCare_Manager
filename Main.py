@@ -1,6 +1,6 @@
 ## IMPORTACIONES GLOBALES
 import funciones_globales as FG
-from Logo_Inicio import logo_inicio
+from Logo_Inicio_animado import logo_inicio_animado
 from Logo_UTN import logo_UTN_animado
 
 ## IMPORTACIONES DE SUBMENUS
@@ -50,6 +50,6 @@ def menu_principal():
 
 # EJECUCION DE PROGRAMA
 logo_UTN_animado()
-logo_inicio()
+logo_inicio_animado()
 menu_principal()
 
