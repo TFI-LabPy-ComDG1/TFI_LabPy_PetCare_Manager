@@ -1,6 +1,7 @@
 ## IMPORTACIONES GLOBALES
 import funciones_globales as FG
-import Logo_Inicio as LG
+from Logo_Inicio import logo_inicio
+from Logo_UTN import Logo_UTN
 
 ## IMPORTACIONES DE SUBMENUS
 from menu_Mascotas import menu_Mascotas
@@ -48,5 +49,7 @@ def menu_principal():
                 FG.pausar()
 
 # EJECUCION DE PROGRAMA
-LG.logo_inicio()
+Logo_UTN()
+logo_inicio()
 menu_principal()
+
