@@ -1,3 +1,12 @@
+# Link Repo
+```
+https://github.com/TFI-LabPy-ComDG1/TFI_LabPy_PetCare_Manager
+```
+# Link Video
+```
+https://www.youtube.com/
+```
+
 ```text
 ██==============================================██
 ||░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░||
@@ -44,11 +53,9 @@ La aplicación se ejecutará íntegramente desde la consola y estará organizada
 Permite gestionar la información de:
 
 - 🐶 Mascotas
-- 👤 Clientes
-- 🩺 Veterinarios
 - 📅 Turnos
 - 💉 Historial clínico
-- 💰 Facturación
+- 💰 Servicios
 
 ---
 
