@@ -234,5 +234,4 @@ def menu_Turnos():
             FG.pausar()
 
 if __name__ == "__main__":
-    menu_Turnos() 
-
+    menu_Turnos()
