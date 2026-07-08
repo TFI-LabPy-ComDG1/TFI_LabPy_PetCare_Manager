@@ -49,7 +49,11 @@ def menu_principal():
                 FG.pausar()
 
 # EJECUCION DE PROGRAMA
-logo_UTN_animado()
-logo_inicio_animado()
-menu_principal()
+def main():
+    logo_UTN_animado()
+    logo_inicio_animado()
+    menu_principal()
+
+if __name__ == "__main__":
+    main()
 
