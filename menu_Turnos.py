@@ -233,6 +233,6 @@ def menu_Turnos():
             print("\nOpción inválida. Por favor, seleccione una opción válida.")
             FG.pausar()
 
-    menu_Turnos()
+    menu_Turnos() 
 
     
