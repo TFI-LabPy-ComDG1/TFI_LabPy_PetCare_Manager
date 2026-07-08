@@ -37,7 +37,7 @@ def menu_Turnos():
             while nombre_mascota == "":
                 nombre_mascota = input("Ingrese el nombre de la mascota: ")
 
-            tipo-mascota = input("Tipo de mascota: ")
+            tipo_mascota = input("Tipo de mascota: ")
             while tipo_mascota == "":
                 tipo_mascota = input("Ingrese el tipo de mascota: ")
 
@@ -233,6 +233,6 @@ def menu_Turnos():
             print("\nOpción inválida. Por favor, seleccione una opción válida.")
             FG.pausar()
 
-    menu_Turnos() 
+menu_Turnos() 
 
     
