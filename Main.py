@@ -2,6 +2,7 @@
 import funciones_globales as FG
 from Logo_Inicio_animado import logo_inicio_animado
 from Logo_UTN import logo_UTN_animado
+from logos.logo_fin import Logo_UTN_fin
 
 ## IMPORTACIONES DE SUBMENUS
 from menu_Mascotas import menu_Mascotas
@@ -53,6 +54,7 @@ def main():
     logo_UTN_animado()
     logo_inicio_animado()
     menu_principal()
+    Logo_UTN_fin()
 
 if __name__ == "__main__":
     main()
