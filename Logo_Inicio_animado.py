@@ -15,7 +15,7 @@ def mostrar_logo_normal():
     print(r"  ||             ╚═════════════════╝             ||  ")
     print(r"  ||                                             ||  ")
     print(r"  ██=============================================██  ")
-    print("\n        >> PRESIONA ENTER PARA INGRESAR <<          ")
+    print("\n          >> PRESIONE ENTER PARA INGRESAR <<         ")
 
 def mostrar_logo_parpadeo():
     print(r"  ██=============================================██  ")
@@ -30,7 +30,7 @@ def mostrar_logo_parpadeo():
     print(r"  ||             ╚═════════════════╝             ||  ")
     print(r"  ||                                             ||  ")
     print(r"  ██=============================================██  ")
-    print("\n        >> PRESIONA ENTER PARA INGRESAR <<          ")
+    print("\n          >> PRESIONE ENTER PARA INGRESAR <<         ")
 
 def esperar_con_deteccion(segundos):
     """
@@ -66,8 +66,9 @@ def logo_inicio_animado():
 
     # Al salir del bucle limpia y continúa al programa principal
     FG.limpiar_pantalla()
-    print(r"<< Chaque que arranca el programón.... >>")
+    print(r"<< Vió parpadear al gatito?? >>")
     time.sleep(1.5)
 
-# Ejecución de la pantalla de inicio
-#logo_inicio_animado()
+# Ejecución de la pantalla de inicio animada
+if __name__ == "__main__":
+    logo_inicio_animado()
