@@ -1,15 +1,15 @@
 ## IMPORTACIONES GLOBALES
-import funciones_globales as FG
-from Logo_Inicio_animado import logo_inicio_animado
-from Logo_UTN import logo_UTN_animado
+import utils.funciones_globales as FG
+from logos.Logo_Inicio_animado import logo_inicio_animado
+from logos.Logo_UTN import logo_UTN_animado
 from logos.logo_fin import Logo_UTN_fin
 
 ## IMPORTACIONES DE SUBMENUS
-from menu_Mascotas import menu_Mascotas
-from menu_Turnos import menu_Turnos
-from menu_atenciones import menu_Atenciones
-from menu_servicios import menu_servicios    
-from menu_estadisticas import menu_estadisticas
+from menus.menu_Mascotas import menu_Mascotas
+from menus.menu_Turnos import menu_Turnos
+from menus.menu_atenciones import menu_Atenciones
+from menus.menu_servicios import menu_servicios    
+from menus.menu_estadisticas import menu_estadisticas
 
 ## DESARROLLO DE MENU PRINCIPAL
 def menu_principal():

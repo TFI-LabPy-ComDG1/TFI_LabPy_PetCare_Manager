@@ -1,4 +1,4 @@
-import funciones_globales as FG
+import utils.funciones_globales as FG
 
 def menu_estadisticas():
     while True:
@@ -48,3 +48,7 @@ def menu_estadisticas():
             case _:
                 print("\nOpción inválida.")
                 FG.pausar()
+
+if __name__ == "__main__":
+    menu_estadisticas()
+

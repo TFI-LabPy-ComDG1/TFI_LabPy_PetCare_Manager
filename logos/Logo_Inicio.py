@@ -1,4 +1,4 @@
-import funciones_globales as FG
+import utils.funciones_globales as FG
 
 def logo_inicio():
     FG.limpiar_pantalla()
@@ -15,3 +15,7 @@ def logo_inicio():
     print("  ||                                             ||  ")
     print("  ██=============================================██  ")
     FG.pausar()
+
+if __name__ == "__main__":
+    logo_inicio()
+

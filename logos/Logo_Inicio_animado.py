@@ -1,5 +1,5 @@
 import time
-import funciones_globales as FG
+import utils.funciones_globales as FG
 import msvcrt # Librería nativa de Windows para detectar teclas sin congelar el programa
 
 def mostrar_logo_normal():
@@ -72,3 +72,4 @@ def logo_inicio_animado():
 # Ejecución de la pantalla de inicio animada
 if __name__ == "__main__":
     logo_inicio_animado()
+

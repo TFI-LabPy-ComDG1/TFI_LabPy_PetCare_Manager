@@ -1,4 +1,4 @@
-import funciones_globales as FG
+import utils.funciones_globales as FG
 
 def menu_servicios():
     while True:
@@ -42,3 +42,7 @@ def menu_servicios():
             case _:
                 print("\nOpción inválida.")
                 FG.pausar()
+
+if __name__ == "__main__":
+    menu_servicios()
+

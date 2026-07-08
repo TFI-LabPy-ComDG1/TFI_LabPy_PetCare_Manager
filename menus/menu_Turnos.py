@@ -1,4 +1,4 @@
-import funciones_globales as FG
+import utils.funciones_globales as FG
 
 def menu_Turnos():
     hay_turno = False
@@ -23,7 +23,6 @@ def menu_Turnos():
         print("|  2. Consultar Turnos                   |")
         print("|  3. Modificar Turno                    |")
         print("|  4. Cancelar Turno                     |")
-        print("|                                        |")
         print("|  0. Volver al Menú Principal           |")
         print("|" , "=" * 38 , "|")
         print("")
@@ -235,3 +234,4 @@ def menu_Turnos():
 
 if __name__ == "__main__":
     menu_Turnos()
+
